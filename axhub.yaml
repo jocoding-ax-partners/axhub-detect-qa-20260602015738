@@ -1,0 +1,4 @@
+version: axhub/v1
+runtime:
+  port: 3000
+  health_path: /
