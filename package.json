@@ -1,0 +1,12 @@
+{
+  "name": "axhub-detect-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo node build ok",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
