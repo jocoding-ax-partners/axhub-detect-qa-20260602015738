@@ -1,4 +1,4 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: '2024-04-03',
   nitro: { preset: 'node-server' }
 });
