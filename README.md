@@ -7,7 +7,7 @@ Language samples:
 - python-fastapi
 - go-http
 - ruby-sinatra
-- ruby-rails
+- ruby-rails (native Rails, no Procfile)
 - java-maven
 - java-gradle
 - rust-axum
