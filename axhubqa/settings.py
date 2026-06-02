@@ -1,9 +1,7 @@
-SECRET_KEY = "axhub-detect-qa"
-DEBUG = True
-ROOT_URLCONF = "axhubqa.urls"
-ALLOWED_HOSTS = ["*"]
-INSTALLED_APPS = []
-MIDDLEWARE = []
-WSGI_APPLICATION = "axhubqa.wsgi.application"
-DATABASES = {"default": {"ENGINE": "django.db.backends.sqlite3", "NAME": ":memory:"}}
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+SECRET_KEY='axhub-qa-secret'
+DEBUG=False
+ALLOWED_HOSTS=['*']
+ROOT_URLCONF='axhubqa.urls'
+MIDDLEWARE=[]
+INSTALLED_APPS=[]
+DEFAULT_AUTO_FIELD='django.db.models.BigAutoField'

@@ -1,4 +1,3 @@
-from django.http import JsonResponse
+from django.http import HttpResponse
 from django.urls import path
-
-urlpatterns = [path("", lambda request: JsonResponse({"ok": True}))]
+urlpatterns=[path('', lambda request: HttpResponse('axhub django ok'))]
