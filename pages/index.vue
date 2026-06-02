@@ -1,1 +1,1 @@
-<template><main>axhub nuxt detect qa</main></template>
+<template><main>axhub nuxt ok</main></template>
