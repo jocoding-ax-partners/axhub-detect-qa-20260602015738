@@ -1,1 +1,1 @@
-<main>axhub sveltekit detect qa</main>
+<main>axhub sveltekit ok</main>
