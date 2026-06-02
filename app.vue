@@ -1,3 +1,3 @@
 <template>
-  <NuxtPage />
+  <main>axhub nuxt ok</main>
 </template>

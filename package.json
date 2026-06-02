@@ -1,1 +1,1 @@
-{"scripts":{"build":"nuxi build","start":"node .output/server/index.mjs"},"dependencies":{"nuxt":"3.12.4","vue":"3.4.38"},"devDependencies":{},"type":"module"}
+{"scripts":{"build":"nuxi build","start":"node .output/server/index.mjs"},"dependencies":{"nuxt":"3.12.4"},"devDependencies":{},"type":"module"}
