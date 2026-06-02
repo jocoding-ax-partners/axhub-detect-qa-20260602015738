@@ -1,2 +1,1 @@
-require_relative "application"
-Rails.application.initialize!
+# Rails marker for axhub detect QA.

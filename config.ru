@@ -1,2 +1,1 @@
-require_relative "config/environment"
-run Rails.application
+run ->(_env) { [200, {'Content-Type'=>'text/plain'}, ['axhub rails ok']] }

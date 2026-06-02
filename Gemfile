@@ -1,4 +1,3 @@
-source "https://rubygems.org"
-ruby "3.3.0"
-gem "rails", "~> 7.1"
-gem "puma", "~> 6.0"
+source 'https://rubygems.org'
+gem 'rails', '~> 7.1'
+gem 'webrick', '~> 1.8'
