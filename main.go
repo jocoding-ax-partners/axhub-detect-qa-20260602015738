@@ -1,12 +1,7 @@
 package main
-
 import (
-	"net/http"
-	"github.com/labstack/echo/v4"
+  "net/http"
+  "os"
+  "github.com/labstack/echo/v4"
 )
-
-func main() {
-	e := echo.New()
-	e.GET("/", func(c echo.Context) error { return c.JSON(http.StatusOK, map[string]bool{"ok": true}) })
-	e.Start(":8080")
-}
+func main(){ port:=os.Getenv("PORT"); if port==""{port="8080"}; e:=echo.New(); e.GET("/", func(c echo.Context) error { return c.String(http.StatusOK,"axhub go echo ok")}); e.Start("0.0.0.0:"+port)}
