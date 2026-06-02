@@ -1,2 +1,2 @@
-require_relative './app'
-run DetectApp
+require './app'
+run App
