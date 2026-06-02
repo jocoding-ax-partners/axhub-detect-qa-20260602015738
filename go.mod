@@ -1,3 +1,3 @@
-module example.com/axhub-detect-go
+module example.com/axhub-go-http
 
-go 1.22
+go 1.23
