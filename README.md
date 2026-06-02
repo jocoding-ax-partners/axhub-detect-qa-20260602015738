@@ -18,3 +18,15 @@ Compose filename samples:
 - compose-docker-yaml/docker-compose.yaml
 - compose-short-yaml/compose.yaml
 - compose-short-yml/compose.yml
+
+## Extra framework fixtures
+
+- node-nuxt
+- node-sveltekit
+- node-remix
+- python-django
+- python-flask
+- go-gin
+- go-fiber
+- go-echo
+- go-chi
