@@ -4,6 +4,7 @@ This repository is generated for live production QA of `axhub apps detect`.
 
 Language samples:
 - node-express
+- node-nextjs
 - python-fastapi
 - go-http
 - ruby-sinatra
