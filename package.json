@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "remix vite:build",
+    "start": "remix-serve ./build/server/index.js --port ${PORT:-3000}"
+  },
+  "dependencies": {
+    "@remix-run/node": "2.16.0",
+    "@remix-run/react": "2.16.0",
+    "@remix-run/serve": "2.16.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
