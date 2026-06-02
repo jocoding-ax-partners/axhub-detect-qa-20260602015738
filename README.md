@@ -1,4 +1,19 @@
-# AxHub detect QA 20260602015738
+# axhub detect QA 20260602015738
 
-Temporary live QA fixture repo for axhub apps detect.
-Contains six real language subprojects: Node, Python, Go, Ruby, Java, Rust.
+This repository is generated for live production QA of `axhub apps detect`.
+
+Language samples:
+- node-express
+- python-fastapi
+- go-http
+- ruby-sinatra
+- ruby-rails
+- java-maven
+- java-gradle
+- rust-axum
+
+Compose filename samples:
+- compose-docker-yml/docker-compose.yml
+- compose-docker-yaml/docker-compose.yaml
+- compose-short-yaml/compose.yaml
+- compose-short-yml/compose.yml
