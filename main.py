@@ -1,7 +1,5 @@
-from flask import Flask, jsonify
-
+from flask import Flask
 app = Flask(__name__)
-
-@app.get("/")
-def index():
-    return jsonify(ok=True)
+@app.get('/')
+def root():
+    return 'axhub flask ok'
