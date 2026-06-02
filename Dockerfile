@@ -1,10 +1,9 @@
-FROM rust:1.83-slim AS builder
+FROM rust:1.83-alpine AS build
+RUN apk add --no-cache musl-dev
 WORKDIR /app
 COPY . .
 RUN cargo build --release
-
-FROM debian:bookworm-slim
-WORKDIR /app
-COPY --from=builder /app/target/release/axhub-detect-rust /app/axhub-detect-rust
+FROM alpine:3.20
+COPY --from=build /app/target/release/axhub-rust-axum /usr/local/bin/app
 EXPOSE 8080
-CMD ["/app/axhub-detect-rust"]
+CMD ["/usr/local/bin/app"]
