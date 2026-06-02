@@ -1,3 +1,1 @@
-export default function Page() {
-  return <main>axhub Next.js detect QA</main>;
-}
+export default function Page() { return <main>axhub next ok</main>; }
